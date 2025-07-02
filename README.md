@@ -4,18 +4,6 @@ A full-featured hotel reservation platform inspired by Hotels.com, designed usin
 
 ---
 
-## 📌 Table of Contents
-
-- [Features](#-features)
-- [Architecture](#-architecture)
-- [Tech Stack](#-tech-stack)
-- [Installation](#-installation)
-- [API Overview](#-api-overview)
-- [Deployment](#-deployment)
-- [Future Improvements](#-future-improvements)
-
----
-
 ## ✅ Features
 
 ### Functional Requirements
