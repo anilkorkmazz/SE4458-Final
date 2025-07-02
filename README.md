@@ -1,4 +1,4 @@
-# 🏨 Hotel Booking System
+ # 🏨 Hotel Booking System
 
 A full-featured hotel reservation platform inspired by Hotels.com, designed using **Service-Oriented Architecture (SOA)** and **Layered Architecture**. The system supports hotel room management, searching, booking, commenting, notification via queue systems, and an AI Agent for natural language interactions.
 
@@ -155,7 +155,7 @@ This behavior is handled by the LowCapacityCheckerService.
 
 **POST** `/api/v1/Comments`
 
-```json
+```
 {
   "userName": "Ahmet",
   "text": "Otel inanılmazdı, çok memnun kaldım!",
@@ -169,8 +169,22 @@ Adds a new user comment and rating for the hotel with ID 2.
 📝 Note:
 You can verify that the comment appears on the /comments/:hotelId page,
 along with the updated rating distribution chart reflecting the new feedback.
-
 ```
 ---
+
+## 📹 Video Demo
+
+🎥 **Watch the video here:**  
+[Demo Video](https://www.youtube.com/watch?v=IE2689xsmKs)
+
+
+
+##  Deployment Links
+
+| Layer         | URL                                                                 |
+|---------------|----------------------------------------------------------------------|
+| 🖥️ Frontend     | [https://se-4458-assignment-2.vercel.app](https://se-4458-assignment-2.vercel.app)         |
+| 🌐 API Gateway | [https://airline-gateway.azurewebsites.net](https://airline-gateway.azurewebsites.net)     |
+| 📡 Airline API | [https://anil-airline-api.azurewebsites.net/swagger](https://anil-airline-api.azurewebsites.net/swagger) |
 
 
