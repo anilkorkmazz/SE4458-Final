@@ -191,15 +191,17 @@ along with the updated rating distribution chart reflecting the new feedback.
 GET /api/v1/Room/search?location=Maldives&startDate=2025-07-06&endDate=2025-07-15&peopleCount=2&page=1&pageSize=10
 
 ```
-➡️ Filter by hotel name: Ocean Breeze Resort
+➡️ **Filter by hotel name:** *Ocean Breeze Resort*
 
-2️⃣ Step 2: Make a Reservation
+---
 
-Once a suitable room (e.g., roomId: 12) is found at Ocean Breeze Resort:```
+### 2️⃣ Step 2: Make a Reservation
 
+Once a suitable room (e.g., `roomId: 12`) is found at **Ocean Breeze Resort**:
 
-**POST**  `/api/v1/Reservation`
-```
+**POST** `/api/v1/Reservation`
+
+```json
 {
   "roomId": 12,
   "username": "koray",
@@ -208,18 +210,6 @@ Once a suitable room (e.g., roomId: 12) is found at Ocean Breeze Resort:```
   "peopleCount": 2
 }
 ```
----
-
-```
-🔍 Search a Room in Rome
-Location: Rome
-People: 1 person
-Date Range: July 6, 2025 → July 15, 2025
-
-```
-
-
-GET /api/v1/Room/search
 
 
 ---
