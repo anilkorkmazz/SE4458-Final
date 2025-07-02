@@ -78,7 +78,7 @@ Below are sample test cases and payloads to verify the core features of the Hote
 
 **POST** `/api/v1/Hotel`
 
-```json
+
 {
   "name": "Alpine Retreat",
   "location": "Swiss Alps",
