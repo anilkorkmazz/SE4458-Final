@@ -78,21 +78,20 @@ Below are sample test cases and payloads to verify the core features of the Hote
 
 **POST** `/api/v1/Hotel`
 
-
+```
 {
   "name": "Alpine Retreat",
   "location": "Swiss Alps",
   "description": "Cozy chalet-style hotel with direct access to ski slopes"
 }
-
+```
 ---
 
 ### 🚪 Add a Room
 
 **POST** `/api/v1/Room`
 
-
-
+```
 {
   "roomNumber": "112",
   "capacity": 10,
@@ -101,7 +100,7 @@ Below are sample test cases and payloads to verify the core features of the Hote
   "availableTo": "2025-07-20",
   "hotelId": 4
 }
-
+```
 
 ---
 
