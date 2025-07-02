@@ -190,14 +190,16 @@ along with the updated rating distribution chart reflecting the new feedback.
 ```http
 GET /api/v1/Room/search?location=Maldives&startDate=2025-07-06&endDate=2025-07-15&peopleCount=2&page=1&pageSize=10
 
+```
 ➡️ Filter by hotel name: Ocean Breeze Resort
 
 2️⃣ Step 2: Make a Reservation
 
-Once a suitable room (e.g., roomId: 12) is found at Ocean Breeze Resort:
+Once a suitable room (e.g., roomId: 12) is found at Ocean Breeze Resort:```
+
 
 **POST**  `/api/v1/Reservation`
-
+```
 {
   "roomId": 12,
   "username": "koray",
@@ -205,7 +207,7 @@ Once a suitable room (e.g., roomId: 12) is found at Ocean Breeze Resort:
   "endDate": "2025-07-15",
   "peopleCount": 2
 }
-
+```
 ---
 
 
