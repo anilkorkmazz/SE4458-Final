@@ -101,10 +101,11 @@ Below are sample test cases and payloads to verify the core features of the Hote
   "availableTo": "2025-07-20",
   "hotelId": 4
 }
-
+```
 
 ---
 
+```
 ### 🔍 Search Available Rooms
 
 **GET** `/api/v1/Room/search`
@@ -120,7 +121,7 @@ Below are sample test cases and payloads to verify the core features of the Hote
 | `page`        | int    | `1`            | Page number for pagination               |
 | `pageSize`    | int    | `10`           | Number of results per page               |
 
-
+```
 ---
 
 
