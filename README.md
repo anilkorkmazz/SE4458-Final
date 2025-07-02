@@ -75,7 +75,7 @@ Below are sample test cases and payloads to verify the core features of the Hote
 ---
 
 ### 🏨 Add a Hotel
-```
+
 **POST** `/api/v1/Hotel`
 
 
@@ -84,7 +84,7 @@ Below are sample test cases and payloads to verify the core features of the Hote
   "location": "Swiss Alps",
   "description": "Cozy chalet-style hotel with direct access to ski slopes"
 }
-```
+
 ---
 
 ### 🚪 Add a Room
@@ -92,7 +92,7 @@ Below are sample test cases and payloads to verify the core features of the Hote
 **POST** `/api/v1/Room`
 
 
-```
+
 {
   "roomNumber": "112",
   "capacity": 10,
@@ -101,7 +101,7 @@ Below are sample test cases and payloads to verify the core features of the Hote
   "availableTo": "2025-07-20",
   "hotelId": 4
 }
-```
+
 
 ---
 
