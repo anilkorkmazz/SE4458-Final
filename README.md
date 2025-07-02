@@ -104,11 +104,11 @@ Below are sample test cases and payloads to verify the core features of the Hote
 
 ---
 
-```
+
 ### 🔍 Search Available Rooms
 
 **GET** `/api/v1/Room/search`
-
+```
 #### Query Parameters
 
 | Parameter     | Type   | Example        | Description                              |
@@ -129,7 +129,7 @@ Below are sample test cases and payloads to verify the core features of the Hote
 **POST** `/api/v1/Reservation`
 
 
-```json
+```
 {
   "roomId": 6,
   "username": "mehmet",
@@ -147,7 +147,7 @@ If the remaining capacity of the room after the reservation drops below 20%, a n
 
 This behavior is handled by the LowCapacityCheckerService.
 
-
+```
 
 ---
 
@@ -170,7 +170,7 @@ Adds a new user comment and rating for the hotel with ID 2.
 You can verify that the comment appears on the /comments/:hotelId page,
 along with the updated rating distribution chart reflecting the new feedback.
 
-
+```
 ---
 
 
