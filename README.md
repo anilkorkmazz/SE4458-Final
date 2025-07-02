@@ -211,8 +211,33 @@ Once a suitable room (e.g., `roomId: 12`) is found at **Ocean Breeze Resort**:
 }
 ```
 
-
 ---
+
+### 🔍 Search a Room in Rome
+
+- 📍 **Konum:** Rome  
+- 👤 **Kişi Sayısı:** 1  
+- 📅 **Tarih Aralığı:** 2025-07-06 → 2025-07-15
+
+**GET** `/api/v1/Room/search`
+
+```http
+GET /api/v1/Room/search?location=Rome&startDate=2025-07-06&endDate=2025-07-15&peopleCount=1&page=1&pageSize=10
+```
+---
+
+### 🔍 Search a Room in Maldives (August)
+
+- 📍 **Konum:** Maldives  
+- 👤 **Kişi Sayısı:** 1  
+- 📅 **Tarih Aralığı:** 2025-08-05 → 2025-08-10
+
+**GET** `/api/v1/Room/search`
+
+```http
+GET /api/v1/Room/search?location=Maldives&startDate=2025-08-05&endDate=2025-08-10&peopleCount=1&page=1&pageSize=10
+```
+
 
 ## 📹 Video Demo
 
