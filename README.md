@@ -172,6 +172,47 @@ along with the updated rating distribution chart reflecting the new feedback.
 ```
 ---
 
+
+## 🧑‍💼 Agent Actions
+
+---
+
+### 🛏️ Book a Room at Ocean Breeze Resort (Maldives)
+
+**Intent:** Book a room at **Ocean Breeze Resort** hotel in **Maldives**  
+**For:** 2 people  
+**Date Range:** July 6, 2025 → July 15, 2025  
+**Username:** koray
+
+#### 1️⃣ Step 1: Search Available Rooms
+
+**GET** `/api/v1/Room/search`
+
+```http
+GET /api/v1/Room/search?location=Maldives&startDate=2025-07-06&endDate=2025-07-15&peopleCount=2&page=1&pageSize=10
+
+➡️ Filter by hotel name: Ocean Breeze Resort
+
+2️⃣ Step 2: Make a Reservation
+
+Once a suitable room (e.g., roomId: 12) is found at Ocean Breeze Resort:
+
+**POST**  `/api/v1/Reservation`
+
+{
+  "roomId": 12,
+  "username": "koray",
+  "startDate": "2025-07-06",
+  "endDate": "2025-07-15",
+  "peopleCount": 2
+}
+
+---
+
+
+
+---
+
 ## 📹 Video Demo
 
 🎥 **Watch the video here:**  
